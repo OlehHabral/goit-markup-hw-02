@@ -1,7 +1,29 @@
 body {
-    font-family: 'Roboto';
-    color: #2E2F42;
+  font-family: "Roboto";
+  color: #2e2f42;
+  background: #ffffff;
 }
-.h3 {
-    color: aqua;
+
+button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16;
+  line-height: 24;
+  color: #4d5ae5;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20;
+  line-height: 24;
+  color: #2e2f42;
+}
+
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16;
+  line-height: 24;
+  color: #434455;
 }
