@@ -4,7 +4,7 @@ body {
   background: #ffffff;
 }
 
-button {
+.button {
   font-style: normal;
   font-weight: 500;
   font-size: 16;
@@ -12,7 +12,7 @@ button {
   color: #4d5ae5;
 }
 
-h3 {
+.h3 {
   font-style: normal;
   font-weight: 500;
   font-size: 20;
@@ -20,7 +20,7 @@ h3 {
   color: #2e2f42;
 }
 
-p {
+.p {
   font-style: normal;
   font-weight: 400;
   font-size: 16;
