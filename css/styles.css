@@ -24,6 +24,9 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.menu-link{
+  text-decoration: none;
+}
 
 .header-contact {
   font-family: "Roboto", sans-serif;
