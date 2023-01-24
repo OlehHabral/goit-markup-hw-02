@@ -3,26 +3,33 @@ body {
   color: #2e2f42;
   background: #ffffff;
 }
+/* Header */
 .header {
 }
 .menu-item {
-  font-family: "Roboto" , sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #2e2f42;
 }
-.menu-link:hover ,
-.menu-link:focus{
-position: absolute;
-width: 48px;
-height: 4px;
-left: 0px;
-top: 48px;
-background: #404BBF;
+.menu-link:hover,
+.menu-link:focus {
+  width: 48px;
+  height: 4px;
+  left: 0px;
+  top: 48px;
+  background: #404bbf;
 }
 
+.header-contact {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
 }
 .list {
   list-style: none;
@@ -50,6 +57,4 @@ background: #404BBF;
   font-size: 16;
   line-height: 24;
   color: #434455;
-}
-.header-contact {
 }
