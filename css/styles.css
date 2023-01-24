@@ -16,7 +16,7 @@ body {
 }
 .menu-link:hover,
 .menu-link:focus {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -24,10 +24,9 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.menu-link{
+.menu-link {
   text-decoration: none;
 }
-
 .header-contact {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -40,26 +39,51 @@ body {
   list-style: none;
 }
 
-.button {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16;
-  line-height: 24;
-  color: #4d5ae5;
+/* Hero image */
+.hero {
+  background: #2e2f42;
 }
-
-.h3 {
+.hero-header {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.hero-btn {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 20;
-  line-height: 24;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+/* Section 1 */
+
+.descriptions-header {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
-.p {
+.descriptions-text {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16;
-  line-height: 24;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
   color: #434455;
 }
+
+/* Section 2 */
