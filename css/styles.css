@@ -3,6 +3,10 @@ body {
   color: #2e2f42;
   background: #ffffff;
 }
+ul,
+ol{
+  list-style: none;
+}
 
 .button {
   font-style: normal;
