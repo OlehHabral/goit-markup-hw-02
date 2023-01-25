@@ -35,12 +35,21 @@ body {
   line-height: 24px;
   color: #434455;
 }
+.header-contact:hover,
+.header-contact:focus {
+  color: #404bbf;
+}
 .list {
   list-style: none;
 }
 
 /* Hero image */
 .hero {
+  position: absolute;
+  width: 1440px;
+  height: 600px;
+  left: 0px;
+  top: 72px;
   background: #2e2f42;
 }
 .hero-header {
