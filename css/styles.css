@@ -214,7 +214,8 @@ body {
   background: var(--light-backgr-color);
   cursor: pointer;
 }
-.portfolio-item {
+.portfolio-section {
+  text-decoration: none;
 }
 .portfolio-name {
   font-family: var(--primary-font);
