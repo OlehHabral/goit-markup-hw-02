@@ -77,7 +77,7 @@ body {
 .header-contact:focus {
   color: var(--blue-text-color);
 }
-.list {
+.list-style {
   list-style: none;
 }
 
