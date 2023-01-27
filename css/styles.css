@@ -21,7 +21,7 @@
   --white-backgr-color: #ffff;
 }
 body {
-  font-family: "Roboto";
+  font-family: var(--secondary-font);
   color: var(--primary-text-color);
 }
 /* Logo  */
