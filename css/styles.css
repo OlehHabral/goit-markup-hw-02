@@ -2,7 +2,7 @@
   /* Fonts */
 
   --primary-font: "Roboto", sans-serif;
-  --secondary-font: "Roleway", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
 
   /* Text colors */
 
@@ -24,7 +24,7 @@ body {
   font-family: "Roboto";
   color: var(--primary-text-color);
 }
- /* Logo  */
+/* Logo  */
 .logo {
   font-family: var(--secondary-font);
   font-style: normal;
@@ -33,11 +33,11 @@ body {
   line-height: 1.17;
   color: var(--logo-blue-color);
 }
-.color-studio-header {
+.cl-studioh {
   color: var(--primary-text-color);
 }
 
-.color-studio-footer {
+.cl-studiof {
   color: var(--logo-white-color);
 }
 
@@ -62,7 +62,7 @@ body {
   line-height: 1.5;
   color: var(--primary-text-color);
 }
-.menu-link {
+.text-decor {
   text-decoration: none;
 }
 .header-contact {
