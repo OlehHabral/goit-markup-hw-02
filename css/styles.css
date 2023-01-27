@@ -206,6 +206,7 @@ body {
   cursor: pointer;
 }
 .filter-btn:hover {
+  color: var(--white-text-color);
   background-color: var(--blue-backgr-cl);
 }
 .portfolio-section {
