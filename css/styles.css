@@ -57,14 +57,12 @@ body {
 }
 .menu-link {
   font-family: var(--primary-font);
-  font-size: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: var(--primary-text-color);
 }
-.menu-link:hover,
-.menu-link:focus {
+.menu-link:hover, .menu-link:focus {
   color: var(--primary-text-color);
 }
 .text-decor {
@@ -72,13 +70,12 @@ body {
 }
 .header-contact {
   font-family: var(--primary-font);
-  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--secondary-text-color);
 }
-.header-contact:hover,
-.header-contact:focus {
+.header-contact:hover, .header-contact:focus {
   color: var(--blue-text-color);
 }
 .list-style {
@@ -107,13 +104,18 @@ body {
   background: var(--blue-backgr-color);
   cursor: pointer;
 }
-.hero-btnhov:hover {
-  font-family: var(--primary-font);
+.hero-btnhov:hover, 
+.hero-btnhov:focus {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: var(--white-text-color);
-  background: var(--blue-backgr-color);
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 /* Section 1 */
 
